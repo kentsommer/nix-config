@@ -1,0 +1,11 @@
+[user]
+name = "Kent Sommer"
+email = "work@kentsommer.com"
+
+[ui]
+default-command = "log"
+diff.format = "color-words"
+editor = "lvim"
+
+[git]
+push-branch-prefix = "kentsommer/push-"
