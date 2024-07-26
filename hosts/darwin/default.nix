@@ -36,7 +36,15 @@ let user = "kentsommer"; in
   # Load system packages
   environment.systemPackages = with pkgs; (import ../../modules/darwin/packages.nix { inherit pkgs; }); 
 
+  # Enable fish shell
   programs.fish.enable = true;
+
+  # Enable yabai and skhd
+  services.yabai.enable = true;
+  services.skhd.enable = true;
+
+  # Enable sketchybar
+  services.sketchybar.enable = true;
 
   system = {
     stateVersion = 4;

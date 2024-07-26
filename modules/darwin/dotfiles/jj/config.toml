@@ -4,6 +4,7 @@ email = "work@kentsommer.com"
 
 [ui]
 default-command = "log"
+paginate = "never"
 diff.format = "color-words"
 editor = "lvim"
 
