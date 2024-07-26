@@ -10,6 +10,7 @@ with pkgs; [
   zip
   lunarvim
   bazelisk
+  jq
 
   # Encryption and security tools
   gnupg
