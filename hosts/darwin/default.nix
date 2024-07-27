@@ -79,7 +79,7 @@ let user = "kentsommer"; in
         KeyRepeat = 2;
         InitialKeyRepeat = 10;
         # Always show scroll bars
-        AppleShowScrollBars = "Always";
+        AppleShowScrollBars = "WhenScrolling";
         # Enable subpixel font rendering on non-Apple LCDs
         # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
         AppleFontSmoothing = 2;
