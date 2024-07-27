@@ -17,6 +17,7 @@ let name = "Kent Sommer";
     casks = pkgs.callPackage ./casks.nix {};
     masApps = {
       "line" = 539883307;
+      "infuse" = 1136220934;
     };
   };
 
