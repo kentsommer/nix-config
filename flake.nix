@@ -23,6 +23,10 @@
       url = "github:homebrew/homebrew-cask";
       flake = false;
     };
+    aerospace-tap = {
+      url = "github:nikitabobko/homebrew-tap";
+      flake = false;
+    };
     jj = {
       url = github:martinvonz/jj;
       inputs.nixpkgs.follows = "nixpkgs";
@@ -40,6 +44,7 @@
     homebrew-bundle,
     homebrew-core,
     homebrew-cask,
+    aerospace-tap,
     home-manager,
     nixpkgs,
     jj,
@@ -95,6 +100,7 @@
                   "homebrew/homebrew-core" = homebrew-core;
                   "homebrew/homebrew-cask" = homebrew-cask;
                   "homebrew/homebrew-bundle" = homebrew-bundle;
+                  "nikitabobko/homebrew-tap" = aerospace-tap;
                 };
                 mutableTaps = false;
                 autoMigrate = true;

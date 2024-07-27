@@ -20,4 +20,12 @@ _:
   # Password management
   "1password"
   "1password-cli"
+
+  # Window management
+  {
+    name = "nikitabobko/tap/aerospace";
+    args = {
+      no_quarantine = true;
+    };
+  }
 ]

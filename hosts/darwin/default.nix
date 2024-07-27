@@ -39,13 +39,6 @@ let user = "kentsommer"; in
   # Enable fish shell
   programs.fish.enable = true;
 
-  # Enable yabai and skhd
-  services.yabai.enable = true;
-  services.skhd.enable = true;
-
-  # Enable sketchybar
-  services.sketchybar.enable = true;
-
   system = {
     stateVersion = 4;
 
