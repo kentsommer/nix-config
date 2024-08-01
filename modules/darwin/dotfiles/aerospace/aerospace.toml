@@ -69,12 +69,13 @@ alt-comma = 'layout accordion horizontal vertical'
 
 # Toggle window fullscreen
 alt-f = 'fullscreen'
+alt-shift-f = 'macos-native-fullscreen'
 
 # Change window focus
-alt-h = 'focus left'
-alt-j = 'focus down'
-alt-k = 'focus up'
-alt-l = 'focus right'
+alt-h = 'focus --boundaries all-monitors-outer-frame --boundaries-action stop left'
+alt-j = 'focus --boundaries all-monitors-outer-frame --boundaries-action stop down'
+alt-k = 'focus --boundaries all-monitors-outer-frame --boundaries-action stop up'
+alt-l = 'focus --boundaries all-monitors-outer-frame --boundaries-action stop right'
 
 # Move window
 alt-shift-h = 'move left'
