@@ -78,6 +78,8 @@ let user = "kentsommer"; in
         AppleFontSmoothing = 2;
         # Finder: show all filename extensions
         AppleShowAllExtensions = true;
+        # Auto hide the title bar
+        _HIHideMenuBar = true;
       };
       LaunchServices = {
         # Whether to enable quarantine for downloaded applications
