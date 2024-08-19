@@ -14,6 +14,7 @@ let name = "Kent Sommer";
 
   homebrew = {
     enable = true;
+    onActivation.upgrade = true;
     casks = pkgs.callPackage ./casks.nix {};
     masApps = {
       "line" = 539883307;
@@ -73,9 +74,9 @@ let name = "Kent Sommer";
           enable = true;
         };
 
-        wezterm = {
-          enable = true;
-        };
+        # wezterm = {
+        #   enable = true;
+        # };
 
         zellij = {
           enable = true;
