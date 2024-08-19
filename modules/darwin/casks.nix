@@ -1,6 +1,9 @@
 _:
 
 [
+  # System
+  "wezterm"
+
   # Communication Tools
   "signal"
 
