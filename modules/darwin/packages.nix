@@ -11,6 +11,7 @@ with pkgs; [
   lunarvim
   bazelisk
   jq
+  darwin.xcode_15_1
 
   # Encryption and security tools
   gnupg
