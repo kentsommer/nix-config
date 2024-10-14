@@ -14,7 +14,11 @@ let name = "Kent Sommer";
 
   homebrew = {
     enable = true;
-    onActivation.upgrade = true;
+    onActivation = {
+      cleanup = "uninstall";
+      autoUpdate = true;
+      upgrade = true;
+    };
     casks = pkgs.callPackage ./casks.nix {};
     masApps = {
       "line" = 539883307;

@@ -113,9 +113,6 @@ let user = "kentsommer"; in
         minimize-to-application = true;
         # Set apps
         persistent-apps = [
-          "/Applications/Arc.app"
-          "/Applications/Nix Apps/WezTerm.app"
-          "/Applications/Signal.app"
           "/System/Applications/System Settings.app"
         ];
       };
