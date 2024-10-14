@@ -19,6 +19,7 @@ _:
 
   # Browsers
   "arc"
+  "zen-browser"
 
   # Password management
   "1password"

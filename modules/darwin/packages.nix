@@ -12,6 +12,7 @@ with pkgs; [
   bazelisk
   jq
   darwin.xcode_15_1
+  socat
 
   # Encryption and security tools
   gnupg
