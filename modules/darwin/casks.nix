@@ -5,7 +5,7 @@ _:
   "wezterm"
 
   # Communication Tools
-  "signal"
+  "beeper"
 
   # Utility Tools
   "syncthing"

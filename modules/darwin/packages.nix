@@ -17,10 +17,11 @@ with pkgs; [
   # Encryption and security tools
   gnupg
   _1password-gui
-  _1password
+  _1password-cli
 
   # Media-related packages
-  nerdfonts
+  nerd-fonts.fira-code
+  nerd-fonts.fira-mono
   ffmpeg
   fzf
 
