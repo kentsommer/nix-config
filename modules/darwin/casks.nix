@@ -3,6 +3,7 @@ _:
 [
   # System
   "wezterm"
+  "ghostty"
 
   # Communication Tools
   "beeper"
