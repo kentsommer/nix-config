@@ -1,0 +1,8 @@
+window-decoration = false
+font-family = "FiraCode Nerd Font Mono"
+command = ~/.nix-profile/bin/fish
+font-size = 14
+confirm-close-surface = false
+quit-after-last-window-closed = true
+macos-window-shadow = false
+gtk-single-instance = true

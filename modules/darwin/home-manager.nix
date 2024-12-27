@@ -38,6 +38,7 @@ let name = "Kent Sommer";
         file.".ssh/config".source = ./dotfiles/ssh/config;
         file.".jjconfig.toml".source = ./dotfiles/jj/config.toml;
         file.".aerospace.toml".source = ./dotfiles/aerospace/aerospace.toml;
+        file.".config/ghostty/config".source = ./dotfiles/ghostty/config;
         sessionVariables = {
           EDITOR = "lvim";
           SSH_AUTH_SOCK = "~/Library/Group\\ Containers/2BUA8C4S2C.com.1password/t/agent.sock";

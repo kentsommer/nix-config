@@ -137,7 +137,7 @@ let user = "kentsommer"; in
       };
       trackpad = {
         Clicking = true;
-        TrackpadRightClick = false;
+        TrackpadRightClick = true;
       };
       menuExtraClock = {
         ShowAMPM = true;
